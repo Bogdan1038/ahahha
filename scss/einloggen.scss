@@ -1,0 +1,87 @@
+@import "./utils/reset";
+@import "./components/header";
+@import "./components/footer";
+
+a {
+    text-decoration: none;
+    color: #09731A;
+}
+a:hover {
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+.form-container {
+    display: flex;
+}
+.inputs {
+    width: 40vw;
+    height: 14vw;
+    background-color: #09731A;
+    opacity: 80%;
+    color: white;
+    font-family: "Mali", cursive;
+    flex-wrap: wrap ;
+}
+.title-inputs-div {
+    display: flex;
+    justify-content: center;
+}
+.title-inputs {
+    font-weight: 500;
+    margin-top: 20px;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.inputs-form {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+label {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #1DC92E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    height: 56px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #09731A;
+    margin-top: 50px;
+}
+.button:hover {
+    background-color: white;
+}
+.konto {
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+.konto:hover {
+    color: #1DC92E;
+}
+
+input {
+    height: 50px;
+    width: 370px;
+    cursor: pointer;
+}

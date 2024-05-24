@@ -1,0 +1,25 @@
+.footer {
+    background-color: #1DC92E;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: #09731A;
+    font-size: 20px; 
+
+
+    &-item {
+        margin-bottom: 3px;
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+        height: 7vw;
+    }
+}
