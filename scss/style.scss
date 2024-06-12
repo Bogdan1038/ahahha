@@ -1,13 +1,7 @@
 @import "./utils/reset";
 @import "./components/header";
 @import "./components/footer";
-a {
-    text-decoration: none;
-    color: #09731A;
-}
-a:hover {
-    color: white;
-}
+@import "./components/a";
 
 
 .title {
@@ -63,7 +57,8 @@ a:hover {
 
 .info {
     background-color: #023C08;
-    height: 500px;
+    height: 60vh;
+    // width: 100vw;
 
     &-mini-title {
         font-size: 30px;
@@ -103,6 +98,24 @@ a:hover {
         text-align: center;
         width: 750px;
         margin-top: 10px;
+    }
+    @media screen and (max-width: 1080px){
+        .text1 {
+            font-size: 12px;
+            width: 350px;
+        }
+        .mini-title-frage {
+            font-size: 12px;    
+        }
+        &-mini-title {
+            font-size: 20px;
+        }
+    }
+
+}
+@media screen and (max-width: 1080px){
+    .info {
+        height: 48vh;
     }
 }
 

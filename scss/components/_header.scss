@@ -21,7 +21,7 @@
         list-style-type: none;
         font-size: 18px;
         display: flex;
-        justify-content: center;
+        justify-content: center;    
         align-items: center;
         font-family: "Mali", cursive;
         font-weight: 600;
@@ -30,16 +30,36 @@
     }
     &-menu-right {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
         align-items: center;
-        width: 13vw;
+        width: 10vw;
         height: 35px;
+        margin-right: 5vw;
     }
     .img-logo {
         width: 376px;
         height: 66px;
     }
     .a-logo {
-        margin-right: 350px;
+        margin-right: 15vw;
+    }
+    .oder {
+        margin: 20px;
+    }
+    @media screen and (max-width: 1080px){
+        .img-logo {
+            width: 276px;
+            height: 46px;
+        }
+        .a-logo {
+            margin-right: 8vw;
+        }
+        &-item {
+            font-size: 11px;
+        }
+        &-menu-right {
+            width: 10vw;
+        }
     }
 }
+
